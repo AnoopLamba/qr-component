@@ -16,7 +16,7 @@
 /* qr container */
 .qr-ctr {
   min-height: 100vh;
-  background: var(--Grayish-blue);
+  background: var(--Light-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,17 +29,17 @@
   }
 }
 .qr-ctr .qr {
-  max-width: 375px;
+  max-width: 300px;
   width: 100%;
   margin: 0 auto;
   background: var(--White);
-  border-radius: 30px;
-  padding: 18px 18px 40px 18px;
+  border-radius: 28px;
+  padding: 12px 12px 28px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  gap: 30px;
+  gap: 24px;
 }
 .qr .qr-img {
   width: 100%;
@@ -55,10 +55,10 @@
   gap: 12px;
   font-family: "Outfit", sans-serif;
   text-align: center;
-  padding: 0 4px;
+  padding: 0 8px;
 }
 .qr-text .qr-text-head {
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 700;
   color: var(--Dark-blue);
 }
@@ -74,5 +74,5 @@
   text-align: center;
 }
 .attribution a {
-  color: white;
+  color: var(--Dark-blue);
 }
